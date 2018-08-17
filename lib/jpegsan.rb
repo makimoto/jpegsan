@@ -1,5 +1,3 @@
-require "jpegsan/version"
-
+require 'jpegsan/jpeg'
 module Jpegsan
-  # Your code goes here...
 end

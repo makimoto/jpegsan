@@ -3,7 +3,9 @@ RSpec.describe Jpegsan do
     expect(Jpegsan::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it 'opens a JPEG file' do
+    file = open("#{__dir__}/sample.jpg")
+    jpeg = Jpegsan::Jpeg.new(file)
+    expect(jpeg.data[0]).to be_a(Jpegsan::Jpeg::JpegMarker)
   end
 end
