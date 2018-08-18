@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Shimpei Makimoto"]
   spec.email         = ["s@makimoto.org"]
 
-  spec.summary       = %q{Just another JPEG file reader/writer for data destruction freaks.}
+  spec.summary       = %q{Just another JPEG file reader/writer for data corruption freaks.}
   spec.homepage      = "https://github.com/makimoto/glitchsan"
   spec.license       = "MIT"
 

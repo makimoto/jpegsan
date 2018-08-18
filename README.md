@@ -1,7 +1,7 @@
 Jpegsan
 ---
 
-Just another JPEG file reader/writer for data destruction freaks.
+Just another JPEG file reader/writer for data corruption freaks.
 
 ## Installation
 
