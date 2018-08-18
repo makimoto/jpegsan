@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jpegsan (0.1.0)
+    jpegsan (0.1.1)
 
 GEM
   remote: https://rubygems.org/

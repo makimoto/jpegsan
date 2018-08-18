@@ -1,3 +1,2 @@
+require 'jpegsan/version'
 require 'jpegsan/jpeg'
-module Jpegsan
-end

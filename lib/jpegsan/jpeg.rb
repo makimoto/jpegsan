@@ -1,4 +1,5 @@
-class Jpegsan::Jpeg
+module Jpegsan
+class Jpeg
   attr_accessor :data
 
   JpegMarker = Struct.new(:code_suffix, :symbol, :description, :data_sequence) do
@@ -165,4 +166,5 @@ class Jpegsan::Jpeg
 
    nil
   end
+end
 end
